@@ -1,0 +1,5 @@
+# KiCad history and backups
+.history/
+**/ .history/
+*.kicad_lock
+*.bak
