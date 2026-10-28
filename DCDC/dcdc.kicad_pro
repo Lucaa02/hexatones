@@ -548,7 +548,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "dcdc.glb",
       "vrml": ""
     },
     "page_layout_descr_file": ""
