@@ -2744,6 +2744,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "exponential signal\n(output)\n"
+		(exclude_from_sim no)
+		(at 259.588 43.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bcdc394-86c6-43bd-8d30-8638b2f68121")
+	)
+	(text "Control Voltage \n(input)"
+		(exclude_from_sim no)
+		(at 44.196 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1c8fcb9-1799-4f3b-8535-9b6537e619bc")
+	)
 	(junction
 		(at 107.95 41.91)
 		(diameter 0)

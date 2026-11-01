@@ -3110,9 +3110,9 @@
 		)
 		(uuid "0fd406c0-076c-487a-858f-5e2ddef5ba47")
 	)
-	(text "Connections to the mix/pot"
+	(text "Connections to the mix/pot\n(you need to give to the potentiometers\nthe signal coming from the sequencer)"
 		(exclude_from_sim no)
-		(at 80.772 176.276 0)
+		(at 88.646 176.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)
