@@ -2001,6 +2001,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Release\n"
+		(exclude_from_sim no)
+		(at 198.374 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "136d0636-a521-4903-9099-3ce45d52e768")
+	)
+	(text "Attack\n"
+		(exclude_from_sim no)
+		(at 178.562 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48fb9b42-96dd-408c-b67a-47e58ff07ec9")
+	)
+	(text "Sustain Level\n"
+		(exclude_from_sim no)
+		(at 134.62 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab3d4783-5285-4e71-9b86-747cfff9301d")
+	)
+	(text "Gate/Trigger\n\nInput Jack connected to the sequencer output"
+		(exclude_from_sim no)
+		(at 41.148 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4a0ccba-2740-45e4-8754-706b40ec5129")
+	)
+	(text "Output\nEnvelope\n"
+		(exclude_from_sim no)
+		(at 265.176 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9d48989-d4d4-44a7-a719-ce53f3736ae0")
+	)
 	(junction
 		(at 236.22 99.06)
 		(diameter 0)
@@ -3843,7 +3893,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FREQ"
+		(property "Value" "SUS"
 			(at 139.7 156.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,46 +4943,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "b0d459fe-c449-41f6-a01f-b7f0327a6de9")
+			(uuid "b0d459fe-c449-41f6-a01f-b7f0327a6dea")
 		)
 		(pin "3"
-			(uuid "1b514639-5e07-400a-86eb-171efffe4078")
+			(uuid "1b514639-5e07-400a-86eb-171efffe4079")
 		)
 		(pin "1"
-			(uuid "984652e7-829b-46f2-91e6-1c02cba862cd")
+			(uuid "984652e7-829b-46f2-91e6-1c02cba862ce")
 		)
 		(pin "2"
-			(uuid "9ac7ccc1-a9b9-42d2-b208-acc55f02ec31")
+			(uuid "9ac7ccc1-a9b9-42d2-b208-acc55f02ec32")
 		)
 		(pin "8"
-			(uuid "0165e69c-585c-4232-900c-63788fbb7425")
+			(uuid "0165e69c-585c-4232-900c-63788fbb7426")
 		)
 		(pin "7"
-			(uuid "3392648d-7713-41b4-b3df-81bbc08dbbae")
+			(uuid "3392648d-7713-41b4-b3df-81bbc08dbbaf")
 		)
 		(pin "9"
-			(uuid "fbc8efff-fc46-49f8-b7e0-e3029dacf073")
+			(uuid "fbc8efff-fc46-49f8-b7e0-e3029dacf074")
 		)
 		(pin "6"
-			(uuid "d2433e60-e59a-4287-83e4-e6010a57a430")
+			(uuid "d2433e60-e59a-4287-83e4-e6010a57a431")
 		)
 		(pin "13"
-			(uuid "c190c13b-5aac-4575-a8de-82ffcc3597a3")
+			(uuid "c190c13b-5aac-4575-a8de-82ffcc3597a4")
 		)
 		(pin "11"
-			(uuid "b5e7c665-38b1-41be-8958-5ac4f6e8db69")
+			(uuid "b5e7c665-38b1-41be-8958-5ac4f6e8db6a")
 		)
 		(pin "10"
-			(uuid "72b6a4a7-fd76-4066-a085-3d9b6fff9e93")
+			(uuid "72b6a4a7-fd76-4066-a085-3d9b6fff9e94")
 		)
 		(pin "4"
-			(uuid "d2259bd0-9878-4978-a932-23f28e936435")
+			(uuid "d2259bd0-9878-4978-a932-23f28e936436")
 		)
 		(pin "12"
-			(uuid "23b50604-f65e-42b3-9e8e-8f8765a42c68")
+			(uuid "23b50604-f65e-42b3-9e8e-8f8765a42c69")
 		)
 		(pin "14"
-			(uuid "0ae27f8a-de83-48ab-91d8-793916ab3e0d")
+			(uuid "0ae27f8a-de83-48ab-91d8-793916ab3e0e")
 		)
 		(instances
 			(project "ADSR"
@@ -5193,46 +5243,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "b0d459fe-c449-41f6-a01f-b7f0327a6de9")
+			(uuid "b0d459fe-c449-41f6-a01f-b7f0327a6deb")
 		)
 		(pin "3"
-			(uuid "1b514639-5e07-400a-86eb-171efffe4078")
+			(uuid "1b514639-5e07-400a-86eb-171efffe407a")
 		)
 		(pin "1"
-			(uuid "984652e7-829b-46f2-91e6-1c02cba862cd")
+			(uuid "984652e7-829b-46f2-91e6-1c02cba862cf")
 		)
 		(pin "2"
-			(uuid "9ac7ccc1-a9b9-42d2-b208-acc55f02ec31")
+			(uuid "9ac7ccc1-a9b9-42d2-b208-acc55f02ec33")
 		)
 		(pin "8"
-			(uuid "0165e69c-585c-4232-900c-63788fbb7425")
+			(uuid "0165e69c-585c-4232-900c-63788fbb7427")
 		)
 		(pin "7"
-			(uuid "3392648d-7713-41b4-b3df-81bbc08dbbae")
+			(uuid "3392648d-7713-41b4-b3df-81bbc08dbbb0")
 		)
 		(pin "9"
-			(uuid "fbc8efff-fc46-49f8-b7e0-e3029dacf073")
+			(uuid "fbc8efff-fc46-49f8-b7e0-e3029dacf075")
 		)
 		(pin "6"
-			(uuid "d2433e60-e59a-4287-83e4-e6010a57a430")
+			(uuid "d2433e60-e59a-4287-83e4-e6010a57a432")
 		)
 		(pin "13"
-			(uuid "c190c13b-5aac-4575-a8de-82ffcc3597a3")
+			(uuid "c190c13b-5aac-4575-a8de-82ffcc3597a5")
 		)
 		(pin "11"
-			(uuid "b5e7c665-38b1-41be-8958-5ac4f6e8db69")
+			(uuid "b5e7c665-38b1-41be-8958-5ac4f6e8db6b")
 		)
 		(pin "10"
-			(uuid "72b6a4a7-fd76-4066-a085-3d9b6fff9e93")
+			(uuid "72b6a4a7-fd76-4066-a085-3d9b6fff9e95")
 		)
 		(pin "4"
-			(uuid "d2259bd0-9878-4978-a932-23f28e936435")
+			(uuid "d2259bd0-9878-4978-a932-23f28e936437")
 		)
 		(pin "12"
-			(uuid "23b50604-f65e-42b3-9e8e-8f8765a42c68")
+			(uuid "23b50604-f65e-42b3-9e8e-8f8765a42c6a")
 		)
 		(pin "14"
-			(uuid "0ae27f8a-de83-48ab-91d8-793916ab3e0d")
+			(uuid "0ae27f8a-de83-48ab-91d8-793916ab3e0f")
 		)
 		(instances
 			(project "ADSR"
@@ -5611,46 +5661,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "b0d459fe-c449-41f6-a01f-b7f0327a6de9")
+			(uuid "b0d459fe-c449-41f6-a01f-b7f0327a6dec")
 		)
 		(pin "3"
-			(uuid "1b514639-5e07-400a-86eb-171efffe4078")
+			(uuid "1b514639-5e07-400a-86eb-171efffe407b")
 		)
 		(pin "1"
-			(uuid "984652e7-829b-46f2-91e6-1c02cba862cd")
+			(uuid "984652e7-829b-46f2-91e6-1c02cba862d0")
 		)
 		(pin "2"
-			(uuid "9ac7ccc1-a9b9-42d2-b208-acc55f02ec31")
+			(uuid "9ac7ccc1-a9b9-42d2-b208-acc55f02ec34")
 		)
 		(pin "8"
-			(uuid "0165e69c-585c-4232-900c-63788fbb7425")
+			(uuid "0165e69c-585c-4232-900c-63788fbb7428")
 		)
 		(pin "7"
-			(uuid "3392648d-7713-41b4-b3df-81bbc08dbbae")
+			(uuid "3392648d-7713-41b4-b3df-81bbc08dbbb1")
 		)
 		(pin "9"
-			(uuid "fbc8efff-fc46-49f8-b7e0-e3029dacf073")
+			(uuid "fbc8efff-fc46-49f8-b7e0-e3029dacf076")
 		)
 		(pin "6"
-			(uuid "d2433e60-e59a-4287-83e4-e6010a57a430")
+			(uuid "d2433e60-e59a-4287-83e4-e6010a57a433")
 		)
 		(pin "13"
-			(uuid "c190c13b-5aac-4575-a8de-82ffcc3597a3")
+			(uuid "c190c13b-5aac-4575-a8de-82ffcc3597a6")
 		)
 		(pin "11"
-			(uuid "b5e7c665-38b1-41be-8958-5ac4f6e8db69")
+			(uuid "b5e7c665-38b1-41be-8958-5ac4f6e8db6c")
 		)
 		(pin "10"
-			(uuid "72b6a4a7-fd76-4066-a085-3d9b6fff9e93")
+			(uuid "72b6a4a7-fd76-4066-a085-3d9b6fff9e96")
 		)
 		(pin "4"
-			(uuid "d2259bd0-9878-4978-a932-23f28e936435")
+			(uuid "d2259bd0-9878-4978-a932-23f28e936438")
 		)
 		(pin "12"
-			(uuid "23b50604-f65e-42b3-9e8e-8f8765a42c68")
+			(uuid "23b50604-f65e-42b3-9e8e-8f8765a42c6b")
 		)
 		(pin "14"
-			(uuid "0ae27f8a-de83-48ab-91d8-793916ab3e0d")
+			(uuid "0ae27f8a-de83-48ab-91d8-793916ab3e10")
 		)
 		(instances
 			(project "ADSR"
@@ -6850,7 +6900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FREQ"
+		(property "Value" "ATT"
 			(at 191.77 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +7054,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FREQ"
+		(property "Value" "R"
 			(at 191.77 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
