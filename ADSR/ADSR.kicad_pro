@@ -760,7 +760,7 @@
         "uuid": "7f7eb90f-e77b-4266-9ef5-a012dfe34d6b"
       }
     ],
-    "used_designators": "#GND1-4,#GND8-10,J3,R1-6,C3-5,D3-7,U1,VR1-3",
+    "used_designators": "#FLG5-8,#GND1-4,#GND8-10,#GND12-14,J3,R1-6,C3-5,D3-7,U1,VR1-3",
     "variants": []
   },
   "sheets": [

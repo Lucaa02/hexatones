@@ -895,10 +895,22 @@
 		)
 	)
 	(junction
+		(at 125.73 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "258b4e40-2ced-4164-9af2-0ab162e387e5")
+	)
+	(junction
 		(at 125.73 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c360d6-7b5e-408c-889a-0baa31ef1f32")
+	)
+	(junction
+		(at 80.01 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e8cb78e-2827-41eb-901e-ab0aa9e5fea7")
 	)
 	(junction
 		(at 80.01 58.42)
@@ -1015,6 +1027,16 @@
 			(type default)
 		)
 		(uuid "281aee84-92b7-4f35-bedd-494d10fcb019")
+	)
+	(wire
+		(pts
+			(xy 125.73 90.17) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36230b72-e04c-433a-8df4-1da1383cc7eb")
 	)
 	(wire
 		(pts
@@ -1208,6 +1230,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 81.28) (xy 80.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b946dfe7-ce65-43d5-a023-365d0e9c2119")
+	)
+	(wire
+		(pts
 			(xy 80.01 34.29) (xy 80.01 58.42)
 		)
 		(stroke
@@ -1288,7 +1320,7 @@
 				)
 			)
 		)
-		(property "Value" "NJ2FD-V"
+		(property "Value" "IN3"
 			(at 69.215 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,7 +1727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33e8580a-e4fc-4aec-9b90-98c934aa7dc5")
-		(property "Reference" "#GND03"
+		(property "Reference" "#GND01"
 			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1755,7 +1787,84 @@
 		(instances
 			(project "passivemixer"
 				(path "/6ba1e2a6-d2cd-467a-b849-b24591727f85"
-					(reference "#GND03")
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 80.01 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ded56c1-2c81-4d24-ad43-0c434a5c7c8d")
+		(property "Reference" "#GND02"
+			(at 80.01 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 78.232 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a3bcbaf-7d26-49d2-b4f3-557c8af2171b")
+		)
+		(instances
+			(project "passivemixer"
+				(path "/6ba1e2a6-d2cd-467a-b849-b24591727f85"
+					(reference "#GND02")
 					(unit 1)
 				)
 			)
@@ -1865,7 +1974,7 @@
 				)
 			)
 		)
-		(property "Value" "NJ2FD-V"
+		(property "Value" "IN1"
 			(at 69.215 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1918,6 +2027,83 @@
 			(project "passivemixer"
 				(path "/6ba1e2a6-d2cd-467a-b849-b24591727f85"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 125.73 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a2436e6-726c-4ee9-b8c4-6271b0cfbfeb")
+		(property "Reference" "#GND03"
+			(at 125.73 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 123.952 94.234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 125.73 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 125.73 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4965bdea-9b8c-4ec5-99bd-49e5d9db86d1")
+		)
+		(instances
+			(project "passivemixer"
+				(path "/6ba1e2a6-d2cd-467a-b849-b24591727f85"
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -2190,7 +2376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a92b5fc7-0af8-4bdd-b6f9-61f0b1fba6e9")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 221.615 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2386,7 @@
 				)
 			)
 		)
-		(property "Value" "NJ2FD-V"
+		(property "Value" "OUT"
 			(at 221.615 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2438,7 @@
 		(instances
 			(project "passivemixer"
 				(path "/6ba1e2a6-d2cd-467a-b849-b24591727f85"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2280,7 +2466,7 @@
 				)
 			)
 		)
-		(property "Value" "NJ2FD-V"
+		(property "Value" "IN2"
 			(at 69.215 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)

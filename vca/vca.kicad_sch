@@ -2735,7 +2735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01aebab5-abfd-44a3-b136-f08e22eab194")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 129.54 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -2795,7 +2795,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15105318-19dc-4e5f-995c-55bd2021152a")
-		(property "Reference" "#GND011"
+		(property "Reference" "#GND07"
 			(at 129.54 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3033,7 +3033,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND011")
+					(reference "#GND07")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19d04f50-793c-4c67-b012-11a23b4c4155")
-		(property "Reference" "#GND07"
+		(property "Reference" "#GND08"
 			(at 153.67 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3110,7 +3110,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND07")
+					(reference "#GND08")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20cb907e-88e4-49d1-8189-876b75b2c586")
-		(property "Reference" "#GND01"
+		(property "Reference" "#GND06"
 			(at 110.49 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3187,7 +3187,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND01")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -3315,7 +3315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e53aa61-ad0e-4516-9d43-b958768e72bb")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 42.545 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3377,7 +3377,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3555,7 +3555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fa4a5d6-b097-47f7-bab4-0f4f807af418")
-		(property "Reference" "#GND06"
+		(property "Reference" "#GND02"
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3615,7 +3615,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND06")
+					(reference "#GND02")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "626f03fc-2abf-4935-a950-e0c89a0e2ee4")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 114.3 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3933,7 +3933,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4206,46 +4206,46 @@
 			)
 		)
 		(pin "7"
-			(uuid "5b0e5833-daa9-4e67-8e3f-4dd6da723ab4")
+			(uuid "5b0e5833-daa9-4e67-8e3f-4dd6da723ab5")
 		)
 		(pin "9"
-			(uuid "26676cb0-1f78-49b7-aae2-e1ead7899f5f")
+			(uuid "26676cb0-1f78-49b7-aae2-e1ead7899f60")
 		)
 		(pin "5"
-			(uuid "4f779a62-e2f2-44f3-b6db-33fb6e2a63b1")
+			(uuid "4f779a62-e2f2-44f3-b6db-33fb6e2a63b2")
 		)
 		(pin "2"
-			(uuid "d1c527b8-c198-49ba-b53b-7137ba281882")
+			(uuid "d1c527b8-c198-49ba-b53b-7137ba281883")
 		)
 		(pin "6"
-			(uuid "54568b81-280e-40f5-9f38-08d6b1e7d903")
+			(uuid "54568b81-280e-40f5-9f38-08d6b1e7d904")
 		)
 		(pin "3"
-			(uuid "c35b9dc0-c33c-4a86-9310-6cb4c8d44c68")
+			(uuid "c35b9dc0-c33c-4a86-9310-6cb4c8d44c69")
 		)
 		(pin "10"
-			(uuid "2c9e037c-28ba-4def-8af8-3a5de838df25")
+			(uuid "2c9e037c-28ba-4def-8af8-3a5de838df26")
 		)
 		(pin "1"
-			(uuid "260a4e6c-0921-410a-bb8a-65577eba7a7b")
+			(uuid "260a4e6c-0921-410a-bb8a-65577eba7a7c")
 		)
 		(pin "8"
-			(uuid "9753f96b-d690-467f-96ba-b2fef6d1d456")
+			(uuid "9753f96b-d690-467f-96ba-b2fef6d1d457")
 		)
 		(pin "12"
-			(uuid "99440f57-b359-4864-91e2-631d2732dead")
+			(uuid "99440f57-b359-4864-91e2-631d2732deae")
 		)
 		(pin "13"
-			(uuid "a783d254-4aa5-47ee-a941-d81e47bc624e")
+			(uuid "a783d254-4aa5-47ee-a941-d81e47bc624f")
 		)
 		(pin "14"
-			(uuid "161ba507-4617-4e20-bf38-e2e49d220fb6")
+			(uuid "161ba507-4617-4e20-bf38-e2e49d220fb7")
 		)
 		(pin "4"
-			(uuid "21f955e2-8f45-4e8f-9fc8-327569abfce3")
+			(uuid "21f955e2-8f45-4e8f-9fc8-327569abfce4")
 		)
 		(pin "11"
-			(uuid "c360995e-c7d5-47b4-a496-f7633fd7b287")
+			(uuid "c360995e-c7d5-47b4-a496-f7633fd7b288")
 		)
 		(instances
 			(project "vca"
@@ -4268,7 +4268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76440323-414a-4fc0-b57a-02aeadbc5712")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 133.35 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +4332,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8084f8c9-b8e9-453e-850b-2934a3af12e4")
-		(property "Reference" "#GND04"
+		(property "Reference" "#GND03"
 			(at 76.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4489,7 +4489,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND04")
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -4666,7 +4666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84fb9ccc-e010-4116-b791-c2a12808dde1")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 57.785 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4728,7 +4728,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4906,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bb3e70c-c43e-490b-8505-1311d1a2b8b9")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 72.39 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +4976,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2c74481-d3e4-4ba4-adbc-3f7380d05a1f")
-		(property "Reference" "#GND09"
+		(property "Reference" "#GND010"
 			(at 242.57 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5136,7 +5136,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND09")
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5259dff-4376-475d-92c6-0bf9b0b0debb")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 91.44 175.895 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5214,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b77c1aa4-c933-4ce5-997f-96efb99f4e6f")
-		(property "Reference" "#GND02"
+		(property "Reference" "#GND04"
 			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -5291,7 +5291,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND02")
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd428582-ce46-4469-8823-39425959dfd3")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 48.26 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +5490,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5618,7 +5618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8c8e112-7180-4ce4-b143-226eb7a80d98")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 102.87 179.705 0)
 			(hide yes)
 			(show_name no)
@@ -5678,7 +5678,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5774,7 +5774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faa7539c-4359-4116-906d-b6d95eebc64a")
-		(property "Reference" "#GND03"
+		(property "Reference" "#GND01"
 			(at 52.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5834,7 +5834,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND03")
+					(reference "#GND01")
 					(unit 1)
 				)
 			)
@@ -5851,7 +5851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffce94f3-7abf-4007-9443-a6f0341f1843")
-		(property "Reference" "#GND08"
+		(property "Reference" "#GND09"
 			(at 180.34 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5911,7 +5911,7 @@
 		(instances
 			(project "vca"
 				(path "/85738239-4af8-4701-8b82-ed1faa93b8f8"
-					(reference "#GND08")
+					(reference "#GND09")
 					(unit 1)
 				)
 			)

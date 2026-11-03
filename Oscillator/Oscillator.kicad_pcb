@@ -7831,6 +7831,17 @@
 		)
 	)
 	(barcode
+		(at 194.712 425.502 -30)
+		(layer "B.SilkS")
+		(size 20 2.46)
+		(text "hexaweb-btu.pages.dev")
+		(text_height 1)
+		(type code128)
+		(hide yes)
+		(knockout no)
+		(uuid "04b75420-1dae-4d93-9a2e-9f6f008ebc9e")
+	)
+	(barcode
 		(at 211.89 407 0)
 		(layer "B.SilkS")
 		(size 25 25)
